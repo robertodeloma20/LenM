@@ -28,10 +28,15 @@
         <input type="url" name="enlace" id="enlace" placeholder="http://www.mgafotas.es"><br><br>
 
         <label for="contraseña">Contraseña:</label><br>
-        <input type="password" id="contrasela" name="contraseña"><br><br>
+        <input type="password" id="contrasela" name="contraseña" pattern="[A-Za-z]{1}" minlength="7" maxlength="8"><br><br>
 
         <label for="repetir_pass">Vuelve a escribir la contraseña:</label><br>
-        <input type="password" name="repetir_pass" id="repetir_pass" ><br><br><br><br>
+        <input type="password" name="repetir_pass" id="repetir_pass" pattern="[A-Za-z]{1}" minlength="7" maxlength="8"><br><br>
+
+        
+
+        <label for="col">Elige tu color favorito:</label><br>
+        <input type="color" name="col" id="col"><br><br><br><br>
 
         <input type="submit" value="Enviar">
         <input type="reset" name="reseteo" value="Borrar todo">
