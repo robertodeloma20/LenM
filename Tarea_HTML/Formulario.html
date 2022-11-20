@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body style="background-color:#9edef9bd;">
+    <h2>Registrate aquí abajo</h2>
+    <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post">
+        <fieldset>
+            <legend>Datos Personales:</legend>
+            <label for="usuario" >Nombre de usuario:</label><br>
+        <input type="text" id="usuario" name="usuario" required><br><br>
+
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" placeholder="Roberto" id="nombre" name="nombre" required><br><br>
+
+        <label for="apellido">Apellidos:</label><br>
+        <input type="text" placeholder="de Loma-Ossorio Salas" id="apellido" name="apellido" required><br><br>
+
+        <label for="dni">DNI:</label><br>
+        <input type="text" name="dni" id="dni" maxlength="9" minlength="9" placeholder="Mínimo 9 caracteres" required><br><br>
+
+        <label for="correo">Correo electronico:</label><br>
+        <input type="text" name="correo" id="correo" placeholder="robertodeloma@gmail.com" required><br><br>
+
+        <label for="contraseña">Contraseña:</label><br>
+        <input type="password" id="contrasela" name="contraseña" minlength="8" maxlength="8" required><br><br>
+
+        <label for="repetir_pass">Vuelve a escribir la contraseña:</label><br>
+        <input type="password" name="repetir_pass" id="repetir_pass" minlength="8" maxlength="8" required><br><br>
+
+        <label for="preferencia">Escoja su preferencia para recomendarle lo mejor:</label><br>
+        <select id="preferencia" name="preferencia">
+            <option value="Cantantes">Cantantes</option>
+            <option value="Cultura">Cultura</option>
+            <option value="Deporte">Deporte</option>
+            <option value="Tecnología">Tecnología</option>
+            <option value="otras">Otras</option>
+        </select><br><br>
+    </fieldset><br><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" name="reseteo" value="Borrar todo">
+    </form>
+<p>Para volver a la página principal del blog de delaossa <a href="Noticias_delaossa.html">Pulse aquí</a></p>
+</body>
+</html>
