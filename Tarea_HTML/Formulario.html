@@ -27,10 +27,10 @@
         <input type="text" name="correo" id="correo" placeholder="robertodeloma@gmail.com" required><br><br>
 
         <label for="contraseña">Contraseña:</label><br>
-        <input type="password" id="contrasela" name="contraseña" minlength="8" maxlength="8" required><br><br>
+        <input type="password" id="contrasela" name="contraseña" placeholder="Una letra mayúscula otra minúscula y un número" style="width: 300px;" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required><br><br>
 
         <label for="repetir_pass">Vuelve a escribir la contraseña:</label><br>
-        <input type="password" name="repetir_pass" id="repetir_pass" minlength="8" maxlength="8" required><br><br>
+        <input type="password" name="repetir_pass" id="repetir_pass" style="width: 300px;" placeholder="Una letra mayúscula otra minúscula y un número" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required><br><br>
 
         <label for="preferencia">Escoja su preferencia para recomendarle lo mejor:</label><br>
         <select id="preferencia" name="preferencia">
