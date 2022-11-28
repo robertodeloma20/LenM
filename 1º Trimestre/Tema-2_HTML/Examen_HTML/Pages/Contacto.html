@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="https://www.alhambradegranada.org"><img src="../Images/cabecera_alhambra.jpg" alt="Foto cabecera"></a><br/>
+
+   <a href="../Index.html" style="color: #494E6B;">Presentación</a> | <a href="#" style="color: #494E6B;">Historia</a> | <a href="#" style="color: #494E6B;">Monumentos Andalusíes</a> | <a href="#" style="color: #494E6B;">Actividades</a> | <a href="#" style="color: #494E6B;">Visitas</a> | <a href="Contacto.html" style="color: #494E6B;">Contacto</a>
+   <h1>Conoce la Alhambra y el Generalife</h1>
+   <h3>Formulario de Inscripción</h3>
+   <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post">
+    <fieldset>
+        <legend>Datos personales</legend>
+        <label for="nombre">Nombre</label><br>
+        <input type="text" id="nombre" name="nombre" required><br>
+
+        <label for="apellido">Apellidos</label><br>
+        <input type="text" id="apellido" name="apellido" required><br>
+
+        <label for="dni">DNI</label><br>
+        <input type="text" name="dni" id="dni" pattern="[0-9]{8}[A-Za-z]{1}" title="Debe poner 8 números y una letra" minlength="9" maxlength="9" required><br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Otra información</legend>
+        <label for="poblacion">Población</label><br>
+        <input type="text" name="poblacion" id="poblacion"><br>
+
+        <label for="provincia">Provincia</label><br>
+        <select id="provincia" name="provincia">
+            <option value="almeria">Almería</option>
+            <option value="cadiz">Cádiz</option>
+            <option value="cordoba">Córdoba</option>
+            <option value="granada">Granada</option>
+            <option value="huelva">Huelva</option>
+            <option value="jaen">Jaén</option>
+            <option value="malaga">Málaga</option>
+            <option value="sevilla">Sevilla</option>
+        </select><br>
+
+        <label for="civil">Estado civil</label><br>
+        <input type="radio" id="soltero" name="estado_civil" value="soltero">
+        <label for="soltero">Soltero/a</label>
+
+        <input type="radio" id="casado" name="estado_civil" value="casado">
+        <label for="casado">Casado/a</label>
+
+        <input type="radio" id="divorciado" name="estado_civil" value="divorciado">
+        <label for="divorciado">Divorciado/a</label>
+
+        <input type="radio" id="viudo" name="estado_civil" value="viudo">
+        <label for="viudo">Viudo/a</label><br>
+
+        <label for="fecha">Fecha de Nacimiento</label><br>
+        <input type="date" name="fecha" id="fecha"><br>
+
+        <label for="correo">Correo electronico:</label><br>
+        <input type="email" name="correo" id="correo" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}"><br>
+    </fieldset>
+        <input type="submit" value="Enviar">
+        <input type="reset" name="reseteo" value="Restablecer">
+   </form><br>
+   <legend style="color: #cccccc;" align="right">IES Triana - Curso 2022/2023</legend> 
+</body>
+</html>
