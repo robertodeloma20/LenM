@@ -1,0 +1,26 @@
+p{
+    font-family: 'allan';
+    color: red;
+}
+h1{
+    font-family: 'aclonica';
+    text-align: center;
+    color: white;
+}
+#principal{
+    color: black;
+}
+.lorem{
+    font-family: 'alegreya Sans SC';
+    color: black;
+    text-align: center;
+}
+body{
+    background-color: #FABADA;
+}
+h2{
+    font-family: 'aclonica';
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+}

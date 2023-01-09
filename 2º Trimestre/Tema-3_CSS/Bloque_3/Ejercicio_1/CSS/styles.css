@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    color: white;
+    
+}
+h1{
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+h2{
+    text-align: center;
+    background-color: rgb(190, 189, 189);
+    color: black;
+}
+
+li a{
+    text-decoration: none;
+}
+p{
+    
+}
