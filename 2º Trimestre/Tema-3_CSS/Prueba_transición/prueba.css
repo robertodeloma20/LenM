@@ -1,0 +1,10 @@
+div{
+    width: 100px;
+    height: 100px;
+    background: rgb(0, 26, 255);
+    transition: width 2s;
+    {transition-timing-function: linear;}
+}
+div:hover {
+    width: 300px;
+  }
