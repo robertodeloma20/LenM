@@ -1,0 +1,48 @@
+div{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73AD21;
+    margin: 20px;
+}
+
+#centro{
+    position: absolute;
+    top: 0px;
+    left: 540px;
+}
+
+#centro_centro{
+    position: absolute;
+    top: 226px;
+    left: 540px;
+}
+
+#centro_abajo{
+    position: absolute;
+    top: 451px;
+    left: 540px;
+}
+
+#derecha{
+    position: absolute;
+    top: 0;
+    left: 1080px;
+}
+
+#derecha_centro{
+    position: absolute;
+    top: 226px;
+    left: 1080px;
+}
+
+#derecha_abajo{
+    position: absolute;
+    top: 451px;
+    left: 1080px;
+}
+
+img{
+    width: 400px;
+    height: 200px;
+}

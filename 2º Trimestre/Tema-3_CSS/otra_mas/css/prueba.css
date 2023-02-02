@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(234, 176, 88);
+}
+#linea p{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+#linea{
+    border-bottom: 5px solid red
+}
+#menu{
+    border: 5px solid rebeccapurple;
+    width: 400px;
+    height: 470px;
+    margin-top: 40px;
+    font-size: 20px;
+    margin-left: 40px;
+    background-color: rgb(166, 252, 252);
+
+}
+#menu p{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#lorem{
+    position:absolute;
+    top: 164px;
+    left: 530px;
+    border: 5px solid rebeccapurple;
+    width: 400px;
+    height: 470px;
+    margin-top: 40px;
+    font-size: 20px;
+    margin-left: 40px;
+    background-color: rgb(166, 252, 252);
+
+}
+
+#img img{
+    position:absolute;
+    top: 205px;
+    left: 1060px;
+    width: 400px;
+    height: 470px;
+    border: 5px solid rebeccapurple;
+
+}
