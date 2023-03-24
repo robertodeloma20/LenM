@@ -31,8 +31,8 @@ div{
     top: 50px;
     left: 50px;
     animation-name:muevete;
-    animation-duration: 10s;
-    animation-iteration-count: 5;
+    animation-duration: 80s;
+    animation-iteration-count: infinite;
     animation-delay: 2s;
     animation-direction: alternate;
     animation-timing-function: ease-out;

@@ -1,0 +1,6 @@
+La resolución en pantalla de portatil es del 100% (la normal) y de monitor grande de ordenador debería de cuadrar con 125%.
+
+Hay audio en todos los Game Over y en algunos HTML.
+
+Las únicas opciones que he puesto que no hemos dado creo es text-shadow para darle un formato de sombra al texto y audio que es 
+para ponerle audio a la página.

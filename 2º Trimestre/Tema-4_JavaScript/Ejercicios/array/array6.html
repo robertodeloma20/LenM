@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let num_personas=prompt("¿Cuantas personas?");
+        let num_sup=0;
+        let num_info=0;
+        let alturas=[];
+        let suma=0;
+    
+        for(i=0;i<num_personas;i++)
+        {
+            alturas[i]=prompt(¿Cuanto mide la persona "+i+1+"?);
+            suma+=alturas[i];
+        }
+        let media=suma/num_personas;
+        for (i=0;i<num_personas;i++)
+        {
+            if(alturas[i]>media){num_sup++;}
+        }
+
+    </script>
+    
+</body>
+</html>

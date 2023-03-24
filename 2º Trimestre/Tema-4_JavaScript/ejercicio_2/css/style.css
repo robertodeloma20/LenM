@@ -1,0 +1,9 @@
+body{
+    background-color: antiquewhite;
+    font-size: 20px;
+    color: green;
+}
+
+.oculto{
+    display: none;
+}

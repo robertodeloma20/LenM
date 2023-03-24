@@ -1,0 +1,410 @@
+#principal{
+    background-image: url(../img/pasaje.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+hr{
+    height: 5px;
+    width: 100%;
+    background-color: rgb(0, 208, 255);
+}
+
+#bienvenidos{
+    text-align: center; 
+    font-family: Arial; 
+    font-size: 80px; 
+    color: #bf1212; 
+    text-shadow: 0px 0px 9px white;
+}
+
+#explicacion,#abajo,#tienes{
+    text-align: center; 
+    font-family: Arial; 
+    font-size: 30px; 
+    color: #ffffff;
+}
+
+img{
+    width: 130px;
+    height: 130px;
+}
+
+.hombre{
+    position: absolute;
+    top: 600px;
+    left: 1200px;
+    animation-name: hombre;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+@keyframes hombre{
+    0% {left:1200px; top:600px;}
+  100%  {left: 20px; top:600px;}
+}
+
+.ladron{
+    position: absolute;
+    top: 600px;
+    left: 1400px;
+    animation-name: ladron;
+    animation-duration: 4s;
+    animation-delay: 2.2s;
+}
+@keyframes ladron{
+    0% {left:1400px; top:600px;}
+  100%  {left: 100px; top:600px;}
+}
+
+.nombre_juego{
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    font-family: Arial; 
+    font-size: 40px; 
+    color: #00eeff; 
+    text-shadow: 0px 0px 9px rgb(255, 2, 2);
+}
+
+#pagina1{
+    position: absolute;
+    top: 500px;
+    left: 650px;
+    border-radius: 5px;
+    padding: 10px 7px;
+    text-decoration: none;
+    color: rgb(115, 0, 255);
+    font-weight: bold;
+    margin: 10px;
+    font-size: 40px;
+    background: rgb(0, 255, 255);
+    transition: width 3s, height 3s, transform 3s;
+}
+#pagina1:hover{
+    width: 180px;
+    height: 50px;
+    transform: rotate(360deg);
+}
+
+#letras{
+    text-align: center; 
+    font-family: Arial; 
+    font-size: 30px; 
+    color: #00ff88;
+    margin: 200px;
+    border-radius: 8px;
+    border: 15px;
+    text-align: center;
+    background-color: rgb(78, 34, 210,.40);
+    padding: 10px;
+}
+
+#principal2{
+    background-image: url(../img/pasaje1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#game_over{
+    position: absolute;
+    top: 450px;
+    left: 350px;
+    border-radius: 5px;
+    padding: 10px 7px;
+    text-decoration: none;
+    color: yellow;
+    font-weight: bold;
+    margin: 10px;
+    font-size: 30px;
+    background: rgb(78, 42, 221);
+}
+
+#pagina2{
+    position: absolute;
+    top: 450px;
+    left: 900px;
+    border-radius: 5px;
+    padding: 10px 7px;
+    text-decoration: none;
+    color: yellow;
+    font-weight: bold;
+    margin: 10px;
+    font-size: 30px;
+    background: rgb(78, 42, 221);
+}
+
+#game_over_1{
+    text-align: center; 
+    font-family: Arial Black; 
+    font-weight: bold; 
+    font-size: 130px; 
+    color: #ff0000; 
+    text-shadow: 0 1px 0 #c72a2a, 0 2px 0 #0b37fd, 0 3px 0 #d61c1c, 0 4px 0 #e91515, 0 5px 0 #e22626, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0, 21, 255, 0.1), 0 1px 3px rgba(38, 0, 255, 0.3), 0 3px 5px rgba(25, 0, 255, 0.2), 0 5px 10px rgba(25, 0, 255, 0.25), 0 10px 10px rgba(0, 8, 255, 0.2), 0 20px 20px rgba(0,0,0,0.15);
+    /*text shadow es para darle sombra al texto y depeende de los valores te puede dar un texto en 3D y demás*/
+}
+
+#principal3{
+    background-image: url(../img/pasaje2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#texto_game_over{
+    text-align: center; 
+    font-family: Arial; 
+    font-size: 25px; 
+    color: #00ff88;
+    margin: 100px;
+    border-radius: 8px;
+    border: 15px;
+    text-align: center;
+    background-color: rgb(78, 34, 210,.40);
+    padding: 10px;
+}
+
+#parte2{
+    background-image: url(../img/pasaje3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#letras_1{
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    text-align: center; 
+    font-family: Arial; 
+    font-size: 30px; 
+    color: #00ff88;
+    margin: 200px;
+    border-radius: 8px;
+    border: 15px;
+    text-align: center;
+    background-color: rgb(94, 53, 218,.40);
+    padding: 10px;
+}
+
+#tienes_2{
+    position: absolute;
+    top: 520px;
+    left: 470px;
+    text-align: center; 
+    font-family: Arial; 
+    font-size: 30px; 
+    color: #ff1ef7;
+}
+
+#parte_3{
+    background-image: url(../img/pasaje4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#letras_2{
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    text-align: center; 
+    font-family: Arial; 
+    font-size: 23px; 
+    color: #00ff88;
+    margin: 200px;
+    border-radius: 8px;
+    border: 15px;
+    text-align: center;
+    background-color: rgb(94, 53, 218,.40);
+    padding: 10px;
+}
+
+#parte_4{
+    background-image: url(../img/pasaje5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pagina3{
+    position: absolute;
+    top: 450px;
+    left: 850px;
+    border-radius: 5px;
+    padding: 10px 7px;
+    text-decoration: none;
+    color: yellow;
+    font-weight: bold;
+    margin: 10px;
+    font-size: 30px;
+    background: rgb(78, 42, 221);
+}
+
+#game_over_2{
+    position: absolute;
+    top: 450px;
+    left: 330px;
+    border-radius: 5px;
+    padding: 10px 7px;
+    text-decoration: none;
+    color: yellow;
+    font-weight: bold;
+    margin: 10px;
+    font-size: 30px;
+    background: rgb(78, 42, 221);
+}
+
+#tienes_3{
+    position: absolute;
+    top: 520px;
+    left: 470px;
+    text-align: center; 
+    font-family: Arial; 
+    font-size: 30px; 
+    color: #00f7ff;
+}
+
+#tienes_4{
+    position: absolute;
+    top: 520px;
+    left: 470px;
+    text-align: center; 
+    font-family: Arial; 
+    font-size: 30px; 
+    color: #ff7b00;
+}
+
+#parte_5{
+    background-image: url(../img/pasaje6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bienvenidos_1{
+    text-align: center; 
+    font-family: Arial; 
+    font-size: 80px; 
+    color: #00047e; 
+    text-shadow: 0px 0px 9px rgb(208, 0, 255);
+}
+
+#letras_3{
+    position: absolute;
+    top: 140px;
+    left: 30px;
+    text-align: center; 
+    font-family: Arial; 
+    font-size: 20px; 
+    color: #ff0000;
+    margin: 100px;
+    border-radius: 8px;
+    border: 15px;
+    text-align: center;
+    background-color: rgb(24, 9, 139);
+    padding: 10px;
+}
+
+#creditos{
+    position: absolute;
+    top: 650px;
+    left: 1350px;
+    border-radius: 5px;
+    padding: 10px 7px;
+    text-decoration: none;
+    color: rgb(0, 255, 255);
+    font-weight: bold;
+    margin: 10px;
+    font-size: 30px;
+    background: rgb(255, 0, 0);
+}
+
+#parte_6{
+    background-image: url(../img/pasaje7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#credito_texto{
+    text-align: left; 
+    padding: 20px;
+    font-family: Arial Black; 
+    font-weight: bold; 
+    font-size: 70px; 
+    color: #fff; 
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+#mas_texto{
+    font-family: Arial; 
+    font-size: 20px; 
+    color: #ffffff;
+    padding: 20px;
+}
+
+#version{
+    position: absolute;
+    top: 680px;
+    left: 10px;
+    font-family: Arial; 
+    font-size: 20px; 
+    color: #ffffff;
+}
+
+#fecha{
+    position: absolute;
+    top: 680px;
+    left: 1250px;
+    font-family: Arial; 
+    font-size: 20px; 
+    color: #ffffff;
+}
+
+#Principal{
+    position: absolute;
+    top: 630px;
+    left: 420px;
+    border-radius: 5px;
+    padding: 10px 7px;
+    text-decoration: none;
+    color: rgb(115, 0, 255);
+    font-weight: bold;
+    margin: 10px;
+    font-size: 20px;
+    background: rgb(0, 255, 255);
+    transition: width 2s, height 2s, transform 2s;
+}
+#Principal:hover{
+    border-radius:80%;
+    -webkit-border-radius:80%;
+    box-shadow: 0px 0px 15px 15px #ec731e;
+    -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    }
+
+#Anterior{
+    position: absolute;
+    top: 630px;
+    left: 820px;
+    border-radius: 5px;
+    padding: 10px 7px;
+    text-decoration: none;
+    color: rgb(115, 0, 255);
+    font-weight: bold;
+    margin: 10px;
+    font-size: 20px;
+    background: rgb(0, 255, 255);
+    transition: width 2s, height 2s, transform 2s;
+}
+#Anterior:hover{
+    border-radius:80%;
+    -webkit-border-radius:80%;
+    box-shadow: 0px 0px 15px 15px #ec731e;
+    -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+footer{
+    position: absolute;
+    top: 680px;
+    left: 20px;
+    font-family: Arial; 
+    font-size: 20px; 
+    color: #ffffff;
+}

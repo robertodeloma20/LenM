@@ -1,0 +1,120 @@
+/****** ELEMENTOS GLOBALES ********/
+body{
+    font-family: 'roboto';
+    width: 80%;
+    position: absolute;
+    top: 10px;
+    left: 10%;
+}
+.global-container{
+    background-color: #cccccc;
+    box-shadow: 5px 15px 15px #000000;
+}
+
+/****** CABECERA ********/
+.head-column img{
+    width: 200px;
+    position: relative;
+    animation-name: imagen;
+    animation-duration: 3s;
+    animation-delay: 3s;
+}
+
+@keyframes imagen{
+    0% {left:1200px; top:5px;  transition: width 3s, height 3s, transform 3s;transform: rotate(1080deg);}
+  100%  {left: 0px; top:0px;}
+}
+
+.head-column h1{
+    font-size: 40px;
+    color: rgb(179, 21, 21);
+    font-style: italic;
+    text-align: right;
+    position: absolute;
+    top: 30px;
+    left: 750px;
+}
+/****** BARRA NAVEGACIÓN ********/
+.nav-bar{
+    background-color: rgb(179, 21, 21); 
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    position: relative; 
+    width: 1215px;
+    height: 100px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+
+a:hover{
+    color: yellow;
+    font-weight: bold;
+}
+
+/****** PRINCIPAL ********/
+.main-content{
+    padding: 80px;
+}
+.main-content h1{
+    color: rgb(179, 21, 21); 
+}
+#mr-bolat{
+    color: rgb(179, 21, 21); 
+    font-size: 25px;
+}
+em{
+    color: blue;
+}
+#gratis{
+    font-size: 25px;
+    color: green;
+}
+
+.main-content h3{
+    color: rgb(179, 21, 21); 
+}
+
+.aside{
+    border: solid rgb(179, 21, 21) 3px;
+    background-color: rgb(253, 198, 16);
+    width: 180px;
+    position: absolute;
+    top: 280px;
+    left: 1000px;
+}
+.aside img{
+    width: 160px;
+    height: 100px;
+    padding: 10px;
+}
+.aside h3{
+    color: rgb(179, 21, 21); 
+}
+
+/****** PIE DE PÁGINA ********/
+
+.footer{
+    background-color: rgb(179, 21, 21); 
+    font-style: italic;
+    color: white;
+    width: 1215px;
+    height: 100px;
+}
+.footer img{
+    width: 100px;
+    position: absolute;
+    top: 890px;
+    left: 200px;
+}
+#copyright{
+    position: absolute;
+    top: 900px;
+    left: 800px;
+}
+#copyright::before{
+    content: "Roberto de Loma-Ossorio Salas";
+}
